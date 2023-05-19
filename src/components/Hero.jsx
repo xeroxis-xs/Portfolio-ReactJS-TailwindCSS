@@ -12,7 +12,7 @@ const Hero = () => {
           data-aos-delay="1200"
           className="absolute h-full md:w-4/12 w-8/12 top-0 right-0 bg-primaryLinear bottom-0 -z-10"
         >
-          <h1 className="rotate-90 absolute top-[28%] right-[-40%] min-[430px]:right-[-30%] lg:right-[-25%] md:right-[-15%] sm:right-[-5%] text-[#EAF2FA]">
+          <h1 className="rotate-90 absolute top-[28%] right-[-40%] min-[380px]:right-[-30%] min-[430px]:right-[-20%] lg:right-[-25%] md:right-[-15%] sm:right-[-5%] text-[#EAF2FA]">
             {hero.firstName}{" "}
             <span className="text-dark_primary">{hero.LastName}</span>
           </h1>
@@ -42,12 +42,12 @@ const Hero = () => {
         </div>
 
         {/* sec col */}
-        <div className="xl:h-[28rem] md:h-96 h-80 pt-30 min-[500px]:pt-5 min-[400px]:pt-10">
+        <div className="xl:h-[28rem] md:h-96 h-80">
           <img
             src={hero.image}
             data-aos="slide-up"
             alt="..."
-            className="h-full object-cover rounded-[25px] drop-shadow-2xl"
+            className="h-full object-cover rounded-[50px] drop-shadow-2xl p-5"
           />
         </div>
       </div>
