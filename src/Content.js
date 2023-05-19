@@ -192,20 +192,20 @@ export const content = {
   },
   Projects: {
     title: "Projects",
-    subtitle: "Projects that I have worked on",
+    subtitle: "Projects that I have contirbuted on",
     image: person_project,
     project_content: [
       {
         title: "Gym Website",
-        image: project1,
+        image: "../../src/assets/images/Projects/img1.png",
       },
       {
         title: "Social Media web",
-        image: project2,
+        image: "../../src/assets/images/Projects/img2.png",
       },
       {
         title: "Creative Website",
-        image: project3,
+        image: "../../src/assets/images/Projects/img3.png",
       },
     ],
   },
