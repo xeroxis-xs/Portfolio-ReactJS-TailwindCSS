@@ -42,12 +42,12 @@ const Hero = () => {
         </div>
 
         {/* sec col */}
-        <div className="xl:h-[28rem] md:h-96 h-80">
+        <div className="xl:h-[28rem] md:h-96 h-80 pt-50 min-[500px]:pt-5 min-[400px]:pt-20">
           <img
             src={hero.image}
             data-aos="slide-up"
             alt="..."
-            className="h-full object-cover rounded-[50px] drop-shadow-2xl p-5"
+            className="h-full object-cover rounded-[25px] drop-shadow-2xl"
           />
         </div>
       </div>
