@@ -2,15 +2,22 @@
 import Hero_person from "./assets/images/Hero/person.png";
 
 import figma from "./assets/images/Skills/figma.png";
+import azure from "./assets/images/Skills/azure.png";
+import django from "./assets/images/Skills/django.png";
+import c from "./assets/images/Skills/c.png";
+import js from "./assets/images/Skills/js.png";
+import cpp from "./assets/images/Skills/cpp.png";
+import java from "./assets/images/Skills/java.png";
 import sketch from "./assets/images/Skills/sketch.png";
 import ps from "./assets/images/Skills/ps.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
 import python from "./assets/images/Skills/python.png";
 
-import services_logo1 from "./assets/images/Services/logo1.png";
-import services_logo2 from "./assets/images/Services/logo2.png";
-import services_logo3 from "./assets/images/Services/logo3.png";
+import autodesk from "./assets/images/Experiences/autodesk.png";
+import ocbc from "./assets/images/Experiences/ocbc.png";
+import starhub from "./assets/images/Experiences/starhub.png";
+import spf from "./assets/images/Experiences/spf.png";
 
 import project1 from "./assets/images/projects/img1.png";
 import project2 from "./assets/images/projects/img2.png";
@@ -58,9 +65,9 @@ export const content = {
     },
   ],
   hero: {
-    title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
+    title: "Software Developer",
+    firstName: "XI SHENG",
+    LastName: "TEOH",
     btnText: "Hire Me",
     image: Hero_person,
     hero_content: [
@@ -75,66 +82,117 @@ export const content = {
     ],
   },
   skills: {
-    title: "Skills",
-    subtitle: "MY TOP SKILLS",
+    title: "SKILLS",
+    subtitle: "My top skills",
     skills_content: [
       {
-        name: "Figma",
-        para: "Lorem ipsum text  dummy",
-        logo: figma,
+        name: "Python",
+        para: "Programming Language",
+        logo: python,
       },
       {
-        name: "Node js",
-        para: "Lorem ipsum text  dummy",
-        logo: nodejs,
+        name: "C",
+        para: "Programming Language",
+        logo: c,
       },
       {
-        name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
-        logo: ps,
+        name: "C++",
+        para: "Programming Language",
+        logo: cpp,
       },
       {
-        name: "React js",
-        para: "Lorem ipsum text  dummy",
+        name: "Java",
+        para: "Programming Language",
+        logo: java,
+      },
+      {
+        name: "JavaScript",
+        para: "Programming Language",
+        logo: js,
+      },
+      {
+        name: "Django",
+        para: "Web Framework",
+        logo: django,
+      },
+      {
+        name: "React JS",
+        para: "JavaScript Library",
         logo: reactjs,
       },
       {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        name: "React JS",
+        para: "JavaScript Library",
+        logo: reactjs,
       },
       {
-        name: "Python",
-        para: "Lorem ipsum text  dummy",
-        logo: python,
+        name: "Django",
+        para: "JavaScript Library",
+        logo: django,
       },
     ],
-    icon: MdArrowForward,
   },
-  services: {
-    title: "Services",
-    subtitle: "WHAT I OFFER",
-    service_content: [
+  experiences: {
+    title: "EXPERIENCES",
+    subtitle: "My working experiences",
+    experience_content: [
       {
-        title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo1,
+        title: "Software Engineering Intern",
+        subtitle: "COO | Autodesk Singapore",
+        year: "2023",
+        para: [
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        ],
+        logo: autodesk,
       },
       {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo2,
+        title: "Software Engineering Intern",
+        subtitle: "Digital Service Unit | Starhub",
+        year: "2023",
+        para: [
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        ],
+        logo: starhub,
       },
       {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo3,
+        title: "Manpower Officer",
+        subtitle: "Training Command | Singapore Police Force",
+        year: "2020",
+        para: [
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        ],
+        logo: spf,
+      },
+      {
+        title: "Data Analytics Intern",
+        subtitle: "Learning & Development | OCBC Bank",
+        year: "2018",
+        para: [
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        ],
+        logo: ocbc,
       },
     ],
   },
   Projects: {
     title: "Projects",
-    subtitle: "MY CREATION",
+    subtitle: "Projects that I have worked on",
     image: person_project,
     project_content: [
       {

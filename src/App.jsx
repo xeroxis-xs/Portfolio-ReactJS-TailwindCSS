@@ -2,7 +2,7 @@
 import Hero from "./components/Hero";
 import Navbar from "./Layouts/Navbar";
 import Skills from "./components/Skills";
-import Service from "./components/Services";
+import Experiences from "./components/Experiences";
 import Projects from "./components/Projects";
 import Testimonials from "./components/Testimonials";
 import Hireme from "./components/Hireme";
@@ -24,14 +24,14 @@ const App = () => {
     <div className="">
       <Navbar />
       <Hero />
-      <Skills />
-      <Service />
       <Projects />
+      <Experiences />
+      <Skills />
       <Testimonials />
       <Hireme />
       <Contact />
       <footer className="p-3 text-center">
-        <h6 className="mb-3">JOHN ALEX</h6>
+        <h6 className="mb-3">Xi Sheng</h6>
         <p>codeaprogram © All CopyRights Reserved 2022</p>
       </footer>
     </div>

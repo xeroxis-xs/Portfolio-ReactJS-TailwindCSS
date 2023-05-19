@@ -1,5 +1,7 @@
-/* Inria serif */
-@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&display=swap");
+/* Montserrat */
+/* @import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&display=swap"); */
+/* @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 /* Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 /* Paprika */
@@ -27,13 +29,13 @@
     @apply font-Poppins lg:text-6xl text-3xl font-extrabold;
   }
   h2 {
-    @apply font-Inria text-5xl font-bold;
+    @apply font-Montserrat text-5xl font-bold;
   }
   h3 {
     @apply font-Paprika text-5xl;
   }
   h4 {
-    @apply md:text-4xl text-3xl !leading-relaxed font-Paprika;
+    @apply md:text-xl text-lg !leading-relaxed font-Paprika;
   }
   h6 {
     @apply font-Paprika font-bold text-[#253D57] leading-8;

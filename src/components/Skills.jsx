@@ -76,15 +76,13 @@ const Skills = () => {
           {skills.subtitle}
         </h4>
         <br />
-        <div className="flex flex-wrap gap-4 justify-center">
+        <div className="flex flex-wrap gap-6 justify-center" data-aos="fade-up">
           {skills.skills_content.map((skill, i) => (
             <div
               key={i}
-              data-aos="fade-up"
-              data-aos-delay={i * 400}
               className="bg-white sm:cursor-pointer 
                relative group w-full flex items-center
-                gap-5 p-5 max-w-sm rounded-md border-2 border-slate-200"
+                gap-5 p-5 max-w-sm rounded-lg shadow-md"
             >
               <div>
                 <img
@@ -95,15 +93,15 @@ const Skills = () => {
               </div>
               <div>
                 <h6>{skill.name}</h6>
-                <p className="italic">{skill.para}</p>
+                <p>{skill.para}</p>
                 <div
-                  onClick={() => {
-                    setSelectSkill(skill);
-                    openModal();
-                  }}
-                  className="text-xl absolute top-3 right-3"
+                  // onClick={() => {
+                  //   setSelectSkill(skill);
+                  //   openModal();
+                  // }}
+                  // className="text-xl absolute top-3 right-3"
                 >
-                  {createElement(skills.icon)}
+                  {/* {createElement(skills.icon)} */}
                 </div>
               </div>
             </div>
