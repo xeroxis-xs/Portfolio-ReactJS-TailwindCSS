@@ -12,7 +12,7 @@ const Hero = () => {
           data-aos-delay="1200"
           className="absolute h-full md:w-4/12 w-8/12 top-0 right-0 bg-primaryLinear bottom-0 -z-10"
         >
-          <h1 className="rotate-90 absolute top-[28%] lg:right-[-25%] right-[-15%] text-[#EAF2FA]">
+          <h1 className="rotate-90 absolute top-[28%] right-[-40%] min-[430px]:right-[-30%] lg:right-[-25%] md:right-[-15%] sm:right-[-5%] text-[#EAF2FA]">
             {hero.firstName}{" "}
             <span className="text-dark_primary">{hero.LastName}</span>
           </h1>
@@ -20,7 +20,7 @@ const Hero = () => {
 
         {/* first col */}
         <div className="pb-16 px-10 pt-8" data-aos="fade-down">
-          <h2>{hero.title}</h2>
+          <h2 className="text-center">{hero.title}</h2>
           <br />
           <div className="flex justify-end">
             <button className="btn">{hero.btnText}</button>
@@ -42,7 +42,7 @@ const Hero = () => {
         </div>
 
         {/* sec col */}
-        <div className="xl:h-[28rem] h-96">
+        <div className="xl:h-[28rem] md:h-96 h-80 pt-10">
           <img
             src={hero.image}
             data-aos="slide-up"
